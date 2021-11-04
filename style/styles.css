@@ -1,0 +1,43 @@
+table#navigation tbody tr td{
+    text-align: center;
+}
+
+div{
+    display: inline;
+}
+div#vid{
+    text-align: center;
+}
+div.div-table-row {
+    display: inline;
+    text-align: center;
+    float:right;
+    width: 100%;
+}
+div.div-table-col h3{
+    margin-top: 90px; 
+}
+div.div-table-col p{
+    margin-top: 160px; 
+}
+div.textx{
+    float: center;
+}
+div#textxtx{
+    display: grid;
+}
+@media handheld {
+    *{
+        background-color: black;
+    }
+}
+@media print {
+    body { font-family: Arial, Verdana, sans-serif; }
+    h1, h2, p { color: #556b2f; }
+}
+a:hover {
+    color:darkslateblue !important;
+}
+a:hover {
+    cursor: wait;
+}

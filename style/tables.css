@@ -1,0 +1,23 @@
+table#times td:nth-child(even){
+    background: rgb(117, 2, 2);
+}
+table#times td:nth-child(even) p{
+    background: rgb(117, 2, 2);
+    color:rgb(255, 244, 230);
+}
+table#times td:nth-child(odd){
+    background: white;
+}
+table#times td:nth-child(odd) p {
+    background: white;
+}
+tr#row {
+    color:rgb(228, 187, 202);
+}
+div.div-table-row {
+    background-color:darkslateblue;
+}
+div.div-table-col h3, div.div-table-col p{
+    background-color: darkslateblue;
+    color:bisque;
+}
